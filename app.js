@@ -5,9 +5,11 @@
 //Solution: Add interactivity so the user can manage daily tasks.
 //Break things down into smaller steps and take each step at a time.
 
+window.onload = function() {
+    alert(`Hi! I've submitted wrong link. PR link is here: \nhttps://github.com/egorokunevich/clean-code-s1e1/pull/1`);
+}
 
 // Event handling, user interaction is what starts the code execution.
-
 var taskInput=document.getElementById("task_new");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.querySelector(".tasks_todo");//ul of #incompleteTasks
